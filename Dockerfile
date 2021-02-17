@@ -66,7 +66,7 @@ RUN apk add -U --no-cache \
       zlib-dev \
       tiff-dev \
 && echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> /root/.bashrc \
-&& source /root/.bashrc
+&& source /root/.bashrc \
 && pip install --upgrade pip \
 && pip install -r $CYPHON_HOME/requirements.txt \
 && apk del build-deps \
