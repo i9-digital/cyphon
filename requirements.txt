@@ -1,4 +1,4 @@
-snips-nlu==2.20.2
+snips-nlu==0.20.2
 amqp==2.3.2
 anyjson==0.3.3
 backoff==1.6.0
